@@ -11,7 +11,7 @@ dp = Dispatcher(bot)
 async def send_welcome(message: types.Message):
     with open('image.webp', 'rb') as photo:
         await message.answer_document(photo)
-    await message.answer("Sorry, the bot is under construction. Check back later")
+    await message.answer("Sorry, the bot is under construction. Please, check back later")
 
 
 if __name__ == '__main__':
